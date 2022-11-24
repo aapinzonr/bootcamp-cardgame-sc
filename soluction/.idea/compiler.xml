@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="app-queries" />
         <module name="app-command" />
+        <module name="app-master" />
         <module name="business" />
         <module name="domain" />
         <module name="app-proxy" />
@@ -15,6 +16,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="app-command" target="11" />
+      <module name="app-master" target="11" />
       <module name="app-proxy" target="11" />
       <module name="app-queries" target="11" />
       <module name="app-web" target="11" />
@@ -27,6 +29,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="app-command" options="-parameters" />
+      <module name="app-master" options="-parameters" />
       <module name="app-proxy" options="-parameters" />
       <module name="app-queries" options="-parameters" />
       <module name="app-web" options="-parameters" />
